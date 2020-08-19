@@ -1,37 +1,25 @@
 csa_t1:
-- sub-balgrist01  # Motion artifact
-- sub-beijingGE04  # Motion artifact
-- sub-mniS06  # Motion artifact
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-pavia04  # Motion artifact
-- sub-perform06  # Motion artifact
 csa_t2:
-- beijingVerio  # Site did not respect parameters (TR=2, FA=180)
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-pavia04  # Motion artifact
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-mountSinai03  # T2w was re-acquired (subject repositioning)
-csa_gm:
-- sub-amu03  # Motion artifact
-- sub-fslAchieva04  # Motion artifact
-- sub-vuiisIngenia04  # Motion artifact
-- sub-vuiisIngenia05  # Motion artifact
 dti_fa:
-- sub-beijingPrisma03  # wrong FOV placement
+- sub-beijingPrisma03 # wrong FOV placement
 - sub-mountSinai03  # T2w was re-acquired (hence wrong T2w -> DWI registration)
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-oxfordFmrib01  # registration issue (segmentation OK)
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib01 # registration issue (segmentation OK)
 mtr:
-- sub-beijingPrisma04  # different coil, shim value and FOV placement between MTon and MToff
+- sub-beijingPrisma04 # different coil, shim value and FOV placement between MTon and MToff
 - sub-geneva02  # FOV positioning changed between MTon and MToff
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
 - stanford  # Used different TR.
 mtsat:
 - sub-geneva02  # TODO: check what's going on with this scan
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
-- sub-tehranS04  # TODO: check what's going on with this scan
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-tehranS04 # TODO: check what's going on with this scan
 t1:
-- sub-oxfordFmrib04  # T1w scan is not aligned with other contrasts (subject repositioning)
+- sub-oxfordFmrib04 # T1w scan is not aligned with other contrasts (subject repositioning)
 - sub-fslAchieva03  # TODO: check what's going on with this scan
 - sub-fslAchieva04  # TODO: check what's going on with this scan
 - sub-fslAchieva05  # TODO: check what's going on with this scan
